@@ -100,5 +100,5 @@ s <- sqrt(s_sq)
 tBF <- (dbar1-dbar2)/(s*sqrt(1/n1+1/n2))
 p_value <- 2*(1-pt(abs(tBF), n-2))
 # The median of e1 is 0.000117049349565166, median of e2 is -0.000312080173253057, dbar1 is 0.00444018467427865, 
-dbar2 is 0.00415972526785299, t-test statisitc is 0.362124545337581, and the p-value is 0.71809854744486. 
-The p-value>>0.05, therefore the p-value is too large. We failed to reject the null hypothesis for alpha=0.05 and the variance is constant
+  dbar2 is 0.00415972526785299, t-test statisitc is 0.362124545337581, and the p-value is 0.71809854744486. 
+  The p-value>>0.05, therefore the p-value is too large. We failed to reject the null hypothesis for alpha=0.05 and the variance is constant
